@@ -13,4 +13,4 @@ The purpose of this proyect is to reproduce the image of my favourite videogame 
 
 Simply press the start button and see what happens! -->
 
-Here is the <a href="https://fran1893.github.io/videogameconsole_proyect/" target="_blank">demo!!</a>
+Here is the <a href="https://fran1893.github.io/gameconsole_proyect/" target="_blank">demo!!</a>
