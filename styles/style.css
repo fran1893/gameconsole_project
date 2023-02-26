@@ -32,7 +32,8 @@
 .screen {
     margin: 20px;
     flex: 1;
-    background: #dde2df;
+    background-image: url(../media/startup_screen.gif);
+    background-size: cover;
 }
 
 .logo {
