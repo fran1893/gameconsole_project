@@ -4,9 +4,9 @@
 
 ## About <a name = "about"></a>
 
-The purpose of this proyect is to reproduce the image of my favourite videogame console using HTML5 and CSS3
+The purpose of this proyect is to reproduce the image of my favourite videogame console using HTML5 and CSS3 with flex box.
 
-<img src="./media/gameboy.jpg" alt="gameboy">
+<img src="./media/gameboy_proyect-image.png" alt="gameboy">
 
 
 <!-- ## Usage <a name = "usage"></a>
