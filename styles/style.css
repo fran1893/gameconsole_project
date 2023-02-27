@@ -106,6 +106,7 @@
 .a-button,
 .b-button {
     font-weight: bold;
+    color: #cdc9c9;
     background: #900446;
     height: 30px;
     width: 30px;
@@ -125,6 +126,7 @@
 .select,
 .start {
     font-weight: bold;
+    color: #cdc9c9;
     width: 40px;
     height: 10px;
     background: #545761;
