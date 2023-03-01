@@ -1,3 +1,4 @@
+/* GameBoy layout styles START*/
 .gameboy {
     margin: auto;
     width: 250px;
@@ -9,17 +10,21 @@
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
-.screen-container {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
 
+
+/* GameBoy top and bottom containers styles */
+.screen-container,
 .controls-container {
     flex: 1;
     display: flex;
     flex-direction: column;
+}
+
+
+
+/* Screen styles */
+.screen-container {
+    justify-content: center;
 }
 
 .screen-border {
@@ -37,6 +42,8 @@
     background-size: cover;
 }
 
+
+/* Logo styles */
 .logo {
     display: flex;
     align-items: center;
@@ -50,27 +57,29 @@
     padding-right: 5px;
 }
 
+
+
+/* Upper controls styles and sub-controls container styles */
 .upper-controls {
     margin-top: 10px;
     flex: 1;
     display: flex;
 }
 
-.sub-controls {
+.sub-controls,
+.arrows {
     flex: 1;
     display: flex;
     justify-content: center;
 }
 
 .arrows {
-    flex: 1;
-    display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
 }
 
-.up {
+.up,
+.down {
     height: 20px;
     width: 20px;
     background: #555;
@@ -87,14 +96,6 @@
     align-items: center;
 }
 
-.down {
-    height: 20px;
-    width: 20px;
-    background: #555;
-    display: flex;
-    justify-content: center;
-}
-
 .a-b {
     flex: 1;
     display: flex;
@@ -107,7 +108,7 @@
 .b-button {
     font-weight: bold;
     color: #cdc9c9;
-    background: #900446;
+    background-color: #900446;
     height: 30px;
     width: 30px;
     border-radius: 50%;
@@ -116,20 +117,27 @@
     align-items: center;
     justify-content: center;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
-    
+
 }
 
 .b-button {
     margin-bottom: 40px;
 }
 
+.a-button:hover,
+.b-button:hover {
+    background-color: rgb(174, 30, 30);
+}
+
+
+/* Bottom controls styles */
 .select,
 .start {
     font-weight: bold;
     color: #cdc9c9;
     width: 40px;
     height: 10px;
-    background: #545761;
+    background-color: #545761;
     margin-top: 30px;
     border-radius: 15%;
     padding: 5px;
@@ -141,4 +149,9 @@
 
 .start {
     margin-left: 10px;
+}
+
+.select:hover,
+.start:hover {
+    background-color: rgb(117, 114, 114);
 }
